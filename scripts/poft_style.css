@@ -1,0 +1,353 @@
+@import url("/scripts/colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    --img-bg1: url("/assets/img_bg1.jpg");
+    --img-bg2: url("/assets/img_bg2.jpg");
+    margin: 0;
+    text-decoration: none;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+	margin: 0;
+	padding: 0; 
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/*--POFT only Elements--*/
+
+.emp {padding: 25px 69px;}
+::selection {
+    background: #ff5555cc;
+    color: #ffffff;
+}
+.font-weight-11 {font-family: 'Open Sans', sans-serif;font-weight: 100;padding: 5px 0px;}
+.font-weight-12 {font-family: 'Open Sans', sans-serif;font-weight: 200;padding: 5px 0px;}
+.font-weight-13 {font-family: 'Open Sans', sans-serif;font-weight: 300;padding: 5px 0px;}
+.font-weight-14 {font-family: 'Open Sans', sans-serif;font-weight: 400;padding: 5px 0px;}
+.font-weight-15 {font-family: 'Open Sans', sans-serif;font-weight: 500;padding: 5px 0px;}
+.font-weight-16 {font-family: 'Open Sans', sans-serif;font-weight: 600;padding: 5px 0px;}
+.font-weight-17 {font-family: 'Open Sans', sans-serif;font-weight: 700;padding: 5px 0px;}
+.font-weight-18 {font-family: 'Open Sans', sans-serif;font-weight: 800;padding: 5px 0px;}
+.font-weight-19 {font-family: 'Open Sans', sans-serif;font-weight: 900;padding: 5px 0px;}
+
+.font-weight-21 {font-family: 'Oxanium', cursive;font-weight: 100;padding: 5px 0px;}
+.font-weight-22 {font-family: 'Oxanium', cursive;font-weight: 200;padding: 5px 0px;}
+.font-weight-23 {font-family: 'Oxanium', cursive;font-weight: 300;padding: 5px 0px;}
+.font-weight-24 {font-family: 'Oxanium', cursive;font-weight: 400;padding: 5px 0px;}
+.font-weight-25 {font-family: 'Oxanium', cursive;font-weight: 500;padding: 5px 0px;}
+.font-weight-26 {font-family: 'Oxanium', cursive;font-weight: 600;padding: 5px 0px;}
+.font-weight-27 {font-family: 'Oxanium', cursive;font-weight: 700;padding: 5px 0px;}
+.font-weight-28 {font-family: 'Oxanium', cursive;font-weight: 800;padding: 5px 0px;}
+.font-weight-29 {font-family: 'Oxanium', cursive;font-weight: 900;padding: 5px 0px;}
+
+/*--HTML Tags--*/
+
+nav {
+	display: flex;	
+	justify-content: space-between; /*spreads out elements horizontally*/
+	/*align-items: center; /*vertically aligns elements within their container*/ 
+}
+
+/*--Footer1--*/
+.f-extl-t {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 0px 12px 0px;
+}
+
+.f-ul0 {
+    display: block;
+}
+
+.f-li0 {
+    display: block;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 5px 0px;
+}
+
+
+footer {
+    color: var(--c09);
+}
+
+
+.ext-content {
+    position: relative;
+    padding: 5px 0px;
+    margin: 20px 10px;
+    width: 230px;
+}
+
+.ext-bracket {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+}
+
+.fnav0{
+    display: flex;
+    padding: 5px 31px;
+    background-color: var(--c02);
+}
+
+.fnav {
+    background-color: var(--c03);
+    padding: 5px 170px; 
+}
+
+/*--Footer2--*/
+.ext-container {
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    background-color: var(--c02);
+}
+
+.footer-col {
+    padding: 0px 10px 0px 0px;
+}
+
+.footext {
+    font-family: 'Oxanium', cursive;
+    text-align: right;
+    /*font-size: 12px;*/
+    color: inherit;
+    font-weight: 300;
+}
+.fnavc1 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    padding: 0px 20px 0px 0px;
+}
+
+
+.fnavc2 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    color: var(--c02);
+    padding: 0px 20px 0px 0px;
+}
+
+.fnavc3 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    justify-content: end;
+    position: relative;
+    padding-right: 200px;
+}
+
+.ftext0 {
+    font-weight: 500;
+}
+
+/*--Text--*/
+h1 {
+    font-size: 60px;
+}
+.text10 {
+    text-align: 0px 10px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+h2 {
+    font-size: 48px;
+}
+.text20 {
+    text-align: 0px 0px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+h3 {
+    font-size: 42px;
+}
+.text30 {
+    text-align: 0px 0px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+h4 {
+    font-size: 36px;
+}
+.text40 {
+    text-align: 0px 10px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+h5 {
+    font-size: 33px;
+    font-weight: 400;
+}
+.text50 {
+    text-align: 0px 10px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+h6 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text60 {
+    text-align: 100px 10px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+p {
+    font-size: 27px;
+    font-weight: 400;
+}
+.textp0 {
+    text-align: 100px 10px;
+    padding: 0px 0px 0px 50px;
+    color: var(--c02);
+}
+
+a {
+    color: inherit;
+}
+
+/*--Screen--*/
+@media only screen and (max-width: 800px) {
+    .fnavc3 {
+        font-family: 'Oxanium', cursive;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+        margin: 0;
+        justify-content: end;
+        position: relative;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .ext-bracket {
+        display: block;
+    }
+
+    .fnav {
+        padding: 15px 25px;
+    }
+
+    .ext-container {
+        display: block;
+    }
+
+    .ext-content {
+        padding: 10px 0px 0pc 0px;
+    }
+
+    .fnav0{
+        display: block;
+        padding: 10px 25px;
+        background-color: var(--c02);
+    }
+
+    .fnavc3 {
+        font-family: 'Oxanium', cursive;
+        font-size: 12px;
+        padding: 14px 0px 0px 0px;
+        margin: 0;
+        justify-content: end;
+        position: relative;
+        padding-right: 0px;
+    }
+
+    li {
+        display: block;
+        font-size: 10px;
+    
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    .text10 {
+        text-align: 0px 5px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    .text20 {
+        text-align: 0px 0px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+    .text30 {
+        text-align: 0px 0px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    .text40 {
+        text-align: 0px 5px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    h5 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .text50 {
+        text-align: 0px 5px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    h6 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .text60 {
+        text-align: 100px 10px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .textp0 {
+        text-align: 100px 10px;
+        padding: 0px 0px 0px 25px;
+        color: var(--c02);
+    }
+    
+    a {
+        color: inherit;
+    }
+}
+
+
+
+/*--End--*/

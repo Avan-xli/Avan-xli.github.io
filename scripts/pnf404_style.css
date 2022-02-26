@@ -1,0 +1,100 @@
+@import url("/scripts/colors.css");
+
+body {
+    background-color: var(--c09);
+}
+
+.button {
+    font-family: var(--main-font-type);
+    background-color: #1a237e;
+    border: none;
+    padding: 5px 10px;
+    align-self: 50px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: color 1.5s,background-color 2s;
+}
+
+.button:hover {
+    background-color: var(--a1);
+    border: none;
+    padding: 5px 10px;
+    align-self: 50px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: 1s;
+}
+
+#blankp-logo {
+	height: 30px;
+    justify-content: left;
+    top: 15%;
+    padding: 0px 30px;
+}
+
+body {
+    overflow: hidden;
+}/*Hide Scrole Bar*/
+
+.blank-bl {
+    margin: 0px 0px 0px 75px;
+    padding: 150px 0px 0px 0px;
+}
+
+.blank_elements {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--font-weight-title);
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    font-size: 80px;
+}
+
+.blank_mvc {
+    display: none;
+}
+
+.blank_text {
+padding: 10px 0px 0px 0px;
+text-align: left;
+color: #1a237e;
+font-weight: 700;
+font-size: 20px;
+}
+
+.blank_content {
+    padding: 10px 0px 10px 0px;
+}
+
+@media only screen and (max-width: 915px) {
+    
+    .blank-bl {
+        margin: 0px 0px 0px 20px;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .blank_elements {
+        display: none;
+    }
+
+    .blank_text {
+        display: none;
+    }
+    .blank_content {
+        align-items: center;
+    }
+    
+    .blank_mvc {
+        color: var(--just-black);
+        display: block;
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .hero-image-blank {
+        background-color: #1a237e55; /*#eeaa00;*/
+    }
+}
