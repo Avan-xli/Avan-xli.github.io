@@ -280,25 +280,90 @@ nav {
 /*--- footer ---*/
 
 footer {
+    color: var(--c09);
+}
+
+.f-extl-t {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 0px 12px 0px;
+}
+
+.f-ul0 {
+    display: block;
+}
+
+.f-li0 {
+    display: block;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 5px 0px;
+}
+
+.ext-content {
+    position: relative;
+    padding: 5px 0px;
+    margin: 20px 10px;
+    width: 280px;
+}
+
+.ext-bracket {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+}
+
+.fnav0{
+    display: flex;
+    padding: 5px 101px;
+    background-color: var(--c02);
+}
+
+.fnav {
     background-color: var(--c03);
-    color: #dee2e6;
+    padding: 0px 160px; 
+}
+
+/*--Footer2--*/
+.ext-container {
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    background-color: var(--c02);
+}
+
+.footer-col {
+    padding: 0px 10px 0px 0px;
 }
 
 .footext {
     font-family: 'Oxanium', cursive;
     text-align: right;
-    font-size: 12px;
+    /*font-size: 12px;*/
     color: inherit;
     font-weight: 300;
 }
+.fnavc1 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    padding: 0px 20px 0px 0px;
+}
 
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 5px 0px 5px 25px;
+.fnavc2 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    color: var(--c02);
+    padding: 0px 20px 0px 0px;
+}
 
-
+.fnavc3 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    justify-content: end;
+    position: relative;
+    padding-right: 10%;
 }
 
 /*--- Text Style ---*/
