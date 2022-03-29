@@ -1,6 +1,7 @@
 @import url("/scripts/colors.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     font-family: 'Open Sans', sans-serif;
@@ -24,7 +25,7 @@
 
 /*--POFT only Elements--*/
 
-.emp {padding: 25px 69px;}
+.emp {padding: 25px 60px;}
 ::selection {
     background: #ff5555cc;
     color: #ffffff;
@@ -48,6 +49,109 @@
 .font-weight-27 {font-family: 'Oxanium', cursive;font-weight: 700;padding: 5px 0px;}
 .font-weight-28 {font-family: 'Oxanium', cursive;font-weight: 800;padding: 5px 0px;}
 .font-weight-29 {font-family: 'Oxanium', cursive;font-weight: 900;padding: 5px 0px;}
+
+/*--Inported--*/
+#TH1 {
+    font-family: 'Oxanium', cursive;
+    color: var(--c01);
+    font-weight: 400;
+    padding: 0px 0px 0px 75px;
+    font-size: 75px;
+    margin: 0;
+}
+#TH2 {
+    font-family: 'Oxanium', cursive;
+    color: var(--c01);
+    font-weight: 300;
+    font-size: 75px;
+    margin: 0;
+}
+#TH3 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--c01);
+    font-weight: 600;
+    font-size: 65px;
+}
+
+.img-bg1 {
+    background-image: var(--img-bg1);
+}
+
+.img-bg2 {
+    background-image: var(--img-bg2);
+}
+
+.co-dsb {
+    background-color: var(--deep-sea-blue);
+}
+
+.hero-full {
+    height: 700px;
+    width: 100vw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-full {
+    padding: 270px 0px;   
+}
+
+.hero-l-banner {
+    height: 73.5vh;
+    width: 100vw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-l-banner {
+    padding: 220px 0px;   
+}
+
+.hero-banner {
+    height: 400px;
+    width: 100vw;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-banner {
+    padding: 150px 0px;   
+}
+
+.hero-s-banner {
+    height: 230px;
+    width: 100vw;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-s-banner {
+    padding: 70px 0px;
+}
+
+
+.level-1-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    background-color: var(--a1);
+    color: var(--c10);
+    font-size: 50px;
+    padding: 50px 0px 50px 75px;
+    font-weight: 500;
+}
+
+.level-2-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    padding: 25px 60px;
+    background-color: var(--a1);
+    color: var(--c10);
+    font-size: 16px;
+}
+
+
 
 /*--HTML Tags--*/
 

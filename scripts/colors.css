@@ -1,4 +1,5 @@
 :root {
+
     --just-black:       #000000;
     --almost-black:     #161a1d;  
     --stormy-clouds:    #212529;
@@ -13,8 +14,14 @@
     --default-blue:     #1a237e;
     --shallow-sea-blue: #004780;
     --soft-red:         #ff3333;
+    --washed-out-red:   #ff8888;
     --sharp-blue:       #2255ff;
-    /*--*/
+
+    --darker-blue:      #1a126e;
+    --deeper-sea-blue:  #002560;
+    --solid-red:       #dd1111;
+    --plastic-blue:       #0033dd;
+    /*--default--*/
     --c01:  var(--just-black);
     --c02:  var(--almost-black);
     --c03:  var(--stormy-clouds);
@@ -30,4 +37,23 @@
     --a1:   var(--shallow-sea-blue);
     --a2:   var(--sharp-blue);
     --a3:   var(--soft-red);
+    /*--dark mode--*/
+    /*
+    --c01:  var(--pure-white);      /*--c10
+    --c02:  var(--not-quite-white); /*--c09
+    --c03:  var(--not-named-3);     /*--c08
+    --c04:  var(--aluminium);       /*--c07
+    --c05:  var(--steel-gray);      /*--c06
+    --c06:  var(--gray);            /*--c05
+    --c07:  var(--daker-gray);      /*--c04
+    --c08:  var(--stormy-clouds);   /*--c03
+    --c09:  var(--almost-black);    /*--c02
+    --c10:  var(--just-black);      /*--c01
+    */
+    /*
+    --a0:   var(--darker-blue);
+    --a1:   var(--deeper-sea-blue);
+    --a2:   var(--plastic-blue);
+    --a3:   var(--solid-red);
+    */
 }

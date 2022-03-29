@@ -1,6 +1,8 @@
 @import url("/scripts/colors.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap'); 
+
 
 :root {
     font-family: 'Open Sans', sans-serif;
@@ -189,6 +191,9 @@ nav {
     background-size: cover;
     position: relative;
 }
+.block-full {
+    padding: 270px 0px;   
+}
 
 .hero-l-banner {
     height: 73.5vh;
@@ -197,6 +202,9 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.block-l-banner {
+    padding: 220px 0px;   
 }
 
 .hero-banner {
@@ -207,6 +215,9 @@ nav {
     background-size: cover;
     position: relative;
 }
+.block-banner {
+    padding: 150px 0px;   
+}
 
 .hero-s-banner {
     height: 230px;
@@ -216,12 +227,27 @@ nav {
     background-size: cover;
     position: relative;
 }
-
-.hero-ml {
-    background-color: var(--a1);
-    height: 250px;
-    width: 100vw;
+.block-s-banner {
+    padding: 70px 0px;
 }
+
+
+.level-1-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    background-color: var(--a1);
+    padding: 50px 75px;
+    font-size: 45px;
+    width: 100vw;
+    
+}
+
+.level-2-sub-page-banner {
+    padding: 25px 60px;
+    background-color: var(--a1);
+    font-size: 16px;
+}
+
+
 
 .hero-image-blank {
     height: 100vh;
@@ -233,21 +259,7 @@ nav {
     position: relative;
 }
 
-.block-full {
-    padding: 264px 0px;   
-}
 
-.block-l-banner {
-    padding: 276px;   
-}
-
-.block-banner {
-    padding: 60px 0px;   
-}
-
-.block-s-banner {
-    padding: 67px 0px;
-}
 
 .block-start {
     padding: 15px 0px;
@@ -283,81 +295,71 @@ footer {
     color: var(--c09);
 }
 
+
+.fnav0 {
+    background-color: var(--c03);
+    padding: 0px 160px; 
+}
+.f-container0 {
+    margin: 0px 0px;
+}
+.f-braket {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    /*background-color: #0f0;*/
+}
+
+.f-content {
+    position:relative;
+    padding: 10px 0px;
+    margin: 10px 10px;
+    width: 223px;
+    /*background-color: #f00;*/
+}
 .f-extl-t {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     padding: 0px 0px 12px 0px;
 }
-
 .f-ul0 {
     display: block;
 }
-
 .f-li0 {
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 100;
     padding: 5px 0px;
 }
 
-.ext-content {
-    position: relative;
-    padding: 5px 0px;
-    margin: 20px 10px;
-    width: 280px;
-}
-
-.ext-bracket {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px 0px;
-}
-
-.fnav0{
+/*--Footer2--*/
+.fnav1{
     display: flex;
     padding: 5px 101px;
     background-color: var(--c02);
 }
-
-.fnav {
-    background-color: var(--c03);
-    padding: 0px 160px; 
-}
-
-/*--Footer2--*/
-.ext-container {
+.f-container1 {
     font-family: 'Oxanium', cursive;
     display: flex;
     background-color: var(--c02);
 }
-
-.footer-col {
-    padding: 0px 10px 0px 0px;
-}
-
-.footext {
+.f-text {
     font-family: 'Oxanium', cursive;
     text-align: right;
     /*font-size: 12px;*/
     color: inherit;
     font-weight: 300;
 }
+.fnavc0 {
+    font-family: 'Oxanium', cursive;
+    font-size: 14px;
+    margin: 0;
+    padding: 0px 20px 0px 0px;
+}
 .fnavc1 {
-    font-family: 'Oxanium', cursive;
-    font-size: 14px;
-    margin: 0;
-    padding: 0px 20px 0px 0px;
-}
-
-.fnavc2 {
-    font-family: 'Oxanium', cursive;
-    font-size: 14px;
-    margin: 0;
     color: var(--c02);
-    padding: 0px 20px 0px 0px;
 }
-
-.fnavc3 {
+.fnavc2 {
     font-family: 'Oxanium', cursive;
     font-size: 14px;
     margin: 0;
@@ -424,10 +426,15 @@ h6 {
     color: var(--c02);
 }
 
-p {
+.paragraph-text {
     font-size: 20px;
     font-weight: 400;
 }
+
+.co {
+    font-family: 'Inconsolata', monospace;
+}
+
 .textp0 {
     text-align: 100px 10px;
     padding: 0px 0px 0px 50px;
