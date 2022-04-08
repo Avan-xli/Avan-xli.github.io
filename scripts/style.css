@@ -121,14 +121,15 @@ nav {
     font-weight: 500; /*Text weight (thickness)*/
     text-transform: uppercase; /*Text on navigation*/
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in; /*hover animation speed*/
-    color: var(--c09);
+    color: var(--c0
+    9);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     transition: color 0.5s, color 0.5s;
 }
 .nav1:hover {
-    color: var(--deep-sea-blue);
+    color: var(--a1);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,20 +232,36 @@ nav {
     padding: 70px 0px;
 }
 
+.level-0-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 125px 75px;
+    font-size: 75px;
+    width: 100vw;   
+}
+
 
 .level-1-sub-page-banner {
     font-family: 'Oxanium', cursive;
     background-color: var(--a1);
+    color: var(--c10);
     padding: 50px 75px;
     font-size: 45px;
-    width: 100vw;
-    
+    width: 100vw;   
 }
 
 .level-2-sub-page-banner {
+    font-family: 'Oxanium', cursive;
     padding: 25px 60px;
     background-color: var(--a1);
+    color: var(--c10);
     font-size: 16px;
+}
+.blank_space {
+    padding: 250px 0px;
 }
 
 
