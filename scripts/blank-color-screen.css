@@ -7,7 +7,7 @@
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-body {
+.r-body {
     width: 100vw;
     height: 100vh;
     background: red;
@@ -19,13 +19,13 @@ body {
     0%          {background: #ff0000}
     /*0%          {background: #ff1100}*/
     /*0%          {background: {ff2200}*/
-    6.25%      {background: #ff3300}
+    3.125%      {background: #ff3300}
      /*0%          {background: {ff4400}*/   
     /*0%          {background: #ff5500}*/
-    12.5%       {background: #ff6600}
+    6.25%       {background: #ff6600}
     /*0%          {background: #ff6600}*/
     /*0%          {background: #ff7700}*/
-    18.75%      {background: #ff8800}
+    9.375%      {background: #ff8800}
     /*0%          {background: #ff9900}*/
     /*0%          {background: #ffaa00}*/
     12.5%       {background: #ffbb00}
@@ -118,4 +118,46 @@ body {
     50%  {background: yellow;}
     75%  {background: green;}
     100% {background: red;}*/
+  }
+
+.s-body {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    position: 0;
+    animation: shade 4s infinite;
+  }
+  
+  @keyframes shade {
+    3.125%          {background: #000}
+    6.25%      {background: #111}
+    9.375%       {background: #222}
+    12.5%      {background: #333}
+    15.625%       {background: #444}
+    18.75%     {background: #555}
+    21.875%      {background: #666}
+    25%     {background: #777}
+    28.125%         {background: #888}
+    31.25%     {background: #999}
+    34.375%      {background: #aaa}
+    37.5%     {background: #bbb}
+    40.625%       {background: #ccc}
+    43.75%     {background: #ddd}
+    46.875%      {background: #eee}
+    50%     {background: #fff}
+    53.125%      {background: #eee}
+    56.25%     {background: #ddd}
+    59.375%       {background: #ccc}
+    62.5%     {background: #bbb}
+    65.625%      {background: #aaa}
+    68.75%     {background: #999}
+    71.875%         {background: #888}
+    75%     {background: #777}
+    78.125%      {background: #666}
+    81.25%     {background: #555}
+    84.375%       {background: #444}
+    87.5%      {background: #333}
+    90.625%       {background: #222}
+    93.75%      {background: #111}
+    96.875%          {background: #000}
   }

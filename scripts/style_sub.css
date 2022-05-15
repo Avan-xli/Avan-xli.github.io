@@ -28,11 +28,23 @@ html {
     overflow-x: hidden;
 }
 
-/* Customization*/
-
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
 }
 
 ::selection {
@@ -40,15 +52,14 @@ html {
     color: #ffffff;
 }
 
-/*--- Item ---
+/*--- Item ---*/
 .HOC {
     visibility: hidden;
 }
 
 .ROC {
     display: none;
-}*/
-
+}
 
 /*--- Nav ---*/
 li {
@@ -76,6 +87,11 @@ nav {
 
 #blankp-logo {
     margin-top: 6px;
+}
+
+/*#wsnb {}*/
+#msnb {
+    display: none;
 }
 
 .nav {
@@ -120,14 +136,15 @@ nav {
     font-weight: 500; /*Text weight (thickness)*/
     text-transform: uppercase; /*Text on navigation*/
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in; /*hover animation speed*/
-    color: var(--c09);
+    color: var(--c0
+    9);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     transition: color 0.5s, color 0.5s;
 }
 .nav1:hover {
-    color: var(--a2);
+    color: var(--a1);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,125 +160,6 @@ nav {
     margin: 10px 0px;
 }
 
-/*--- Header ---*/
-
-.img-bg1 {
-    background-image: var(--img-bg1);
-}
-.img-bg2 {
-    background-image: var(--img-bg2);
-}
-.co-dsb {
-    background-color: var(--deep-sea-blue);
-}
-.hero-full {
-    height: 700px;
-    width: 100vw;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.block-full {
-    padding: 270px 0px;   
-}
-.hero-l-banner {
-    height: 73.5vh;
-    width: 100vw;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.block-l-banner {
-    padding: 220px 0px;   
-}
-.hero-banner {
-    height: 400px;
-    width: 100vw;
-    background-position: 0% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.block-banner {
-    padding: 150px 0px;   
-}
-.hero-s-banner {
-    height: 230px;
-    width: 100vw;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.block-s-banner {
-    padding: 70px 0px;
-}
-.level-0-sub-page-banner {
-    font-family: 'Oxanium', cursive;
-    background-position: 0% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 125px 75px;
-    font-size: 75px;
-    width: 100vw;   
-}
-.level-1-sub-page-banner {
-    font-family: 'Oxanium', cursive;
-    background-color: var(--a1);
-    color: var(--c10);
-    padding: 50px 75px;
-    font-size: 45px;
-    width: 100vw;   
-}
-.level-2-sub-page-banner {
-    font-family: 'Oxanium', cursive;
-    padding: 25px 60px;
-    background-color: var(--a1);
-    color: var(--c10);
-    font-size: 16px;
-}
-.blank_space {
-    padding: 250px 0px;
-}
-.hero-image-blank {
-    height: 100vh;
-    width: 100vw;
-    background-color: #aaaaaa;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.block-start {
-    padding: 15px 0px;
-}
-.block-ef {
-    padding: 70px 0px;
-}
-.block-end {
-    padding: 15px 0px;
-}
-
-/*--- Objects ---*/
-
-.horiline {
-    width: auto;
-    border: 0.1px solid var(--c04);
-    align-content: center;
-    margin: 30px;
-}
-
-.vertline {
-    margin: 10px 0px;
-    height: 30px;
-    border: 0.1px solid #ced4da;
-    align-content: center;
-}
-
-/* Content */
 #ptitlea {
     font-family: 'Oxanium', cursive;
     padding: 185px 15px 185px 75px;
@@ -285,6 +183,142 @@ nav {
     font-weight: 500;
     font-size: 75px;
     margin: 0;
+}
+
+/*--- Header ---*/
+
+.img-bg1 {
+    background-image: var(--img-bg1);
+}
+
+.img-bg2 {
+    background-image: var(--img-bg2);
+}
+
+.co-dsb {
+    background-color: var(--deep-sea-blue);
+}
+
+.hero-full {
+    height: 700px;
+    width: 100vw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-full {
+    padding: 270px 0px;   
+}
+
+.hero-l-banner {
+    height: 73.5vh;
+    width: 100vw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-l-banner {
+    padding: 220px 0px;   
+}
+
+.hero-banner {
+    height: 400px;
+    width: 100vw;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-banner {
+    padding: 150px 0px;   
+}
+
+.hero-s-banner {
+    height: 230px;
+    width: 100vw;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-s-banner {
+    padding: 70px 0px;
+}
+
+.level-0-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 125px 75px;
+    font-size: 75px;
+    width: 100vw;   
+}
+
+
+.level-1-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    background-color: var(--a1);
+    color: var(--c10);
+    padding: 50px 75px;
+    font-size: 45px;
+    width: 100vw;   
+}
+
+.level-2-sub-page-banner {
+    font-family: 'Oxanium', cursive;
+    padding: 25px 60px;
+    background-color: var(--a1);
+    color: var(--c10);
+    font-size: 16px;
+}
+.blank_space {
+    padding: 250px 0px;
+}
+
+
+
+.hero-image-blank {
+    height: 100vh;
+    width: 100vw;
+    background-color: #aaaaaa;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.block-start {
+    padding: 15px 0px;
+}
+
+.block-ef {
+    padding: 70px 0px;
+}
+
+.block-end {
+    padding: 15px 0px;
+}
+
+/*--- Objects ---*/
+
+.horiline {
+    width: auto;
+    border: 0.1px solid var(--c04);
+    align-content: center;
+    margin: 30px;
+}
+
+.vertline {
+    margin: 10px 0px;
+    height: 30px;
+    border: 0.1px solid #ced4da;
+    align-content: center;
 }
 
 /*--- footer ---*/
@@ -313,11 +347,10 @@ footer {
     padding: 10px 0px;
     margin: 10px 10px;
     width: 223px;
-    text-align: center;
     /*background-color: #f00;*/
 }
 .f-extl-t {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     padding: 0px 0px 12px 0px;
 }
@@ -891,11 +924,6 @@ a {
         font-weight: 400;
     }
 
-    .fnav0 {
-        background-color: var(--c03);
-        padding: 0px auto; 
-    }
-
 }
 @media screen and (max-width: 800px) {
     .column {
@@ -980,12 +1008,5 @@ a {
 
     .footext {
         font-size: 12px;
-    }
-    .fnav0 {
-        align-items: center; 
-    }
-
-    .fnav1 {
-        display: none;
     }
 }

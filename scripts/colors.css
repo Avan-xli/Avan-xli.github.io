@@ -2,7 +2,7 @@
 
     --just-black:       #000000;
     --almost-black:     #161a1d;  
-    --stormy-clouds:    #212529;
+    --charcoal:    #212529;
     --daker-gray:       #343a40;  
     --gray:             #495057; 
     --steel-gray:       #6c757d;  
@@ -14,6 +14,7 @@
     --default-blue:     #1a237e;
     --shallow-sea-blue: #004780;
     --soft-red:         #ff3333;
+    --green:            #46a816;
     --washed-out-red:   #ff8888;
     --sharp-blue:       #2255ff;
 
@@ -24,7 +25,7 @@
     /*--default--*/
     --c01:  var(--just-black);
     --c02:  var(--almost-black);
-    --c03:  var(--stormy-clouds);
+    --c03:  var(--charcoal);
     --c04:  var(--daker-gray);
     --c05:  var(--gray);
     --c06:  var(--steel-gray);
@@ -33,10 +34,10 @@
     --c09:  var(--not-quite-white);
     --c10:  var(--pure-white);
 
-    --a0:   var(--default-blue);
-    --a1:   var(--shallow-sea-blue);
-    --a2:   var(--sharp-blue);
-    --a3:   var(--soft-red);
+    --a0:   var(--soft-red);
+    --a1:   var(--green);
+    --a2:   var(--shallow-sea-blue);
+    --a3:   var(--default-blue);
     /*--dark mode--*/
     /*
     --c01:  var(--pure-white);      /*--c10
