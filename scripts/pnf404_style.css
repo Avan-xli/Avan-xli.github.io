@@ -1,28 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap');
+
 @import url("/scripts/colors.css");
 
-.button {
-    font-family: var(--main-font-type);
+.E404-button {
+    font-family: 'Oxanium', cursive;
+    font-weight: 200;
     background-color: #1a237e;
     border: none;
+    border-radius: 2px;
     padding: 5px 10px;
     align-self: 50px 200px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    transition: color 1.5s,background-color 2s;
+    transition: color 0.75s,background-color 0.75s;
 }
 
-.button:hover {
-    background-color: var(--a1);
-    border: none;
-    padding: 5px 10px;
-    align-self: 50px 200px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.E404-button:hover {
+    background-color: var(--a2);
     font-size: 18px;
-    transition: 1s;
+    transition: 0.75s;
 }
 
 #blankp-logo {
@@ -37,44 +36,37 @@ body {
     overflow: hidden;
 }/*Hide Scrole Bar*/
 
-.E404-MA {
-    padding: 200px 50px;
-    background-color: #f00;
-    
+.E404-USC0 {
+    padding: 200px 50px; 
 }
-
-.E404-CA {
-    margin: auto;
-    /*padding: 0px 0px 0px 50px;*/
-    background-color: #0f0;
+@media screen and (max-height: 725px) {
+    .E404-USC0 {
+        padding: 10% 50px;
+    }
 }
-
-
-.E404-FSCOC0 {
+.E404-FSOC0 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: var(--font-weight-title);
     text-align: left;
     padding: 0px 0px 0px 0px;
     color: var(--c01);
     font-size: 80px;
 }
 .E404-FSOC1 {
-padding: 10px 0px 0px 0px;
-text-align: left;
-color: var(--a3);
-font-weight: 700;
-font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 0px 0px;
+    text-align: left;
+    color: var(--a3);
+    font-weight: 700;
+    font-size: 20px;
 }
 
-.blank_moc0 {
-    display: none;
-}
-.E404-MOC1 {
+
+.E404-MSOC0 {
     padding: 10px 0px 10px 0px;
     display: none;
 }
 
-.f-box {
+.E404-FOBOX {
     bottom: 0;
     position: absolute;
     background-color: var(--c02);
@@ -85,25 +77,41 @@ font-size: 20px;
 
 @media only screen and (max-width: 915px) {
     
-    .blank-bl {
-        margin: auto;
+    .E404-USC0 {
+        margin: 30% 5%;
+        align-content: center;
     }
 
-    .blank_fsoc0 {
+    .E404-FSOC0 {
         display: none;
     }
 
-    .blank_fsoc1 {
+    .E404-FSOC1 {
         display: none;
     }
-    .blank_moc0 {
-        align-items: auto ;
-    }
-    
-    .blank_moc1 {
-        color: var(--just-black);
+
+    .E404-MSOC0 {
+        font-family: 'Oxanium', cursive;
+        text-align: center;
+        color: var(--c01);
         display: block;
-        padding: 0;
+        padding: 10px 0px;
         font-size: 25px;
+    }
+
+    /*.E404-USC1 {}*/
+
+    .E404-button {
+        
+        background-color: var(--a3);
+        border: none;
+        border-radius: 3px;
+        text-decoration: none;
+        margin: 0px 22px;
+        text-align: center;
+        width: 144px;
+        display: inline-block;
+        font-size: 18px;
+        transition: color 1.5s,background-color 2s;
     }
 }
