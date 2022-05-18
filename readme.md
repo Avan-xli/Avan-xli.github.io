@@ -13,7 +13,3 @@ Thanks Avan_41
 
 github repository link:
 https://github.com/Avan-xli/Avan-xli.github.io
-
-
-
-
