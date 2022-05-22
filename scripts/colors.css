@@ -2,12 +2,12 @@
 
     --just-black:       #000000;
     --almost-black:     #161a1d;  
-    --charcoal:    #212529;
+    --charcoal:         #212529;
     --daker-gray:       #343a40;  
     --gray:             #495057; 
     --steel-gray:       #6c757d;  
     --aluminium:        #adb2bd;  
-    --not-named-3:      #ced4da; 
+    --visual-fog:      #ced4da; 
     --not-quite-white:  #f8f9fa;
     --pure-white:       #ffffff;
 
@@ -20,8 +20,8 @@
 
     --darker-blue:      #1a126e;
     --deeper-sea-blue:  #002560;
-    --solid-red:       #dd1111;
-    --plastic-blue:       #0033dd;
+    --solid-red:        #dd1111;
+    --plastic-blue:     #0033dd;
     /*--default--*/
     --c01:  var(--just-black);
     --c02:  var(--almost-black);
@@ -30,7 +30,7 @@
     --c05:  var(--gray);
     --c06:  var(--steel-gray);
     --c07:  var(--aluminium);
-    --c08:  var(--not-named-3);
+    --c08:  var(--visual-fog);
     --c09:  var(--not-quite-white);
     --c10:  var(--pure-white);
 
