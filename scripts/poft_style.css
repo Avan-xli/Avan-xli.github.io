@@ -5,8 +5,8 @@
 
 :root {
     font-family: 'Open Sans', sans-serif;
-    --img-bg1: url("/assets/img_bg1.jpg");
-    --img-bg2: url("/assets/img_bg2.jpg");
+    --img-bg1: url("/resource/img_bg1.jpg");
+    --img-bg2: url("/resource/img_bg2.jpg");
     margin: 0;
     text-decoration: none;
 }
