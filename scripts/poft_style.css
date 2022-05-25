@@ -50,6 +50,42 @@
 .font-weight-28 {font-family: 'Oxanium', cursive;font-weight: 800;padding: 5px 0px;}
 .font-weight-29 {font-family: 'Oxanium', cursive;font-weight: 900;padding: 5px 0px;}
 
+.f-section {
+    background-color: var(--c03);
+}
+
+.f-grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 20px 0px;
+    margin: 0px 100px;
+}
+.f-grid-item {
+    background-color: #ff0000;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+
+.f-content1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.f-content2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.f-content3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.f-content4 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+
 /*--Inported--*/
 #TH1 {
     font-family: 'Oxanium', cursive;
@@ -196,6 +232,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: 0px 0px;
+    
 }
 
 .fnav0{
@@ -206,6 +243,7 @@ footer {
 
 .fnav {
     background-color: var(--c03);
+    align-content: center;
     padding: 0px 160px; 
 }
 

@@ -38,7 +38,7 @@ body {
 html {
     overflow: scroll;
     overflow-x: hidden;
-}
+}  
 
 /*--- Nav ---*/
 li {
@@ -284,78 +284,19 @@ footer {
 }
 
 
-.fnav0 {
-    background-color: var(--c03);
-    padding: 0px 160px; 
-}
-.f-container0 {
-    margin: 0px 0px;
-}
-.f-braket {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0px;
-    /*background-color: #0f0;*/
-}
-
-.f-content {
-    position:relative;
-    padding: 10px 0px;
-    margin: 10px 10px;
-    width: 223px;
-    text-align: center;
-    /*background-color: #f00;*/
-}
-.f-extl-t {
-    font-size: 18px;
-    font-weight: 500;
-    padding: 0px 0px 12px 0px;
-}
-.f-ul0 {
-    display: block;
-}
-.f-li0 {
-    display: block;
-    font-size: 14px;
-    font-weight: 100;
-    padding: 5px 0px;
-}
+.fnav0 {background-color: var(--c03); width: 100%;}
+.f-braket {display: flex;flex-wrap: wrap;padding: 10px 0px;width: 85%;margin: 0 auto; justify-content: center;}
+.f-inner-braket {display: flex;flex-wrap: wrap;}
+.f-content {position:relative;padding: 10px 0px; margin: 10px; width: 203px;text-align: center;}
+.f-extl-t {font-size: 18px;font-weight: 500;padding: 0px 0px 12px 0px; color: var(--c10);}
+.f-link {display: block;font-size: 14px;font-weight: 100;padding: 5px 0px;}
 
 /*--Footer2--*/
-.fnav1{
-    display: flex;
-    padding: 5px 101px;
-    background-color: var(--c02);
-}
-.f-container1 {
-    font-family: 'Oxanium', cursive;
-    display: flex;
-    background-color: var(--c02);
-}
-.f-text {
-    font-family: 'Oxanium', cursive;
-    text-align: right;
-    /*font-size: 12px;*/
-    color: inherit;
-    font-weight: 300;
-}
-.fnavc0 {
-    font-family: 'Oxanium', cursive;
-    font-size: 14px;
-    margin: 0;
-    padding: 0px 20px 0px 0px;
-}
-.fnavc1 {
-    color: var(--c02);
-}
-.fnavc2 {
-    font-family: 'Oxanium', cursive;
-    font-size: 14px;
-    margin: 0;
-    justify-content: end;
-    position: relative;
-    padding-right: 10%;
-}
+.fnav1{display: flex;padding: 5px 10px;background-color: var(--c02);}
+.f-container1 {font-family: 'Oxanium', cursive;font-size: 14px;font-weight: 300;background-color: var(--c02);}
+.fnavc0 {padding: 0px 20px 0px 0px;color: var(--c02);}
+.fnavc1 {color: var(--c02);}
+.fnavc2 {font-family: 'Oxanium', cursive;font-size: 14px;margin: 0;position: absolute;right: 12%;}
 
 /*--- Text Style ---*/
 
@@ -601,61 +542,6 @@ a {
 }
 
 
-@media only screen and (max-width: 1155px) {
-    #e2v0b {display: none;}
-}
-@media only screen and (max-width: 1105px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-}
-@media only screen and (max-width: 1055px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-}
-@media only screen and (max-width: 1005px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-    #e2v0e {display: none;}
-}
-@media only screen and (max-width: 955px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-    #e2v0e {display: none;}
-}
-@media only screen and (max-width: 905px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-    #e2v0e {display: none;}
-    #e2v0f {display: none;}
-}
-@media only screen and (max-width: 975px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-    #e2v0e {display: none;}
-    #e2v0f {display: none;}
-    #e2v0g {display: none;}
-}
-@media only screen and (max-width: 955px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-    #e2v0e {display: none;}
-    #e2v0f {display: none;}
-}
-@media only screen and (max-width: 935px) {
-    #e2v0b {display: none;}
-    #e2v0c {display: none;}
-    #e2v0d {display: none;}
-    #e2v0e {display: none;}
-    #e2v0f {display: none;}
-    #e2v0g {display: none;}
-    #e2v0h {display: none;}
-}
 /**/
 @media only screen and (max-width: 920px) {
 
@@ -739,12 +625,12 @@ a {
     }
 
     .hero-full {
-        height: 200px;
+        height: 250px;
         width: 100vw;
         background-position: bottom;
     }
     .block-full {
-        padding: 70px 0px;   
+        padding: 97px 0px;   
     }
 
     .hero-l-banner {
@@ -798,32 +684,6 @@ a {
         font-weight: 600;
         margin: 0;
     }*/
-
-    #current_date {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
-
     
     h1 {
         text-align: 0px 1px;
@@ -899,11 +759,21 @@ a {
       max-width: 100%;
     }
 }
-@media only screen and (max-width: 420px) {
-
-    nav ul {
+@media only screen and (max-width: 490px) {
+    .fnavc1 {
         display: none;
     }
+    .mhc {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .f-inner-braket {display: flex;flex-wrap: wrap;justify-content: center;}
+}
+
+@media only screen and (max-width: 420px) {
+
 
     .alert {
         font-family: 'Oxanium', cursive;
@@ -940,33 +810,6 @@ a {
         padding: 0px 15px;
     }
 
-    #current_date {
-        display: none;
-    }
-    #e2v0b {
-        display: none;
-    }
-    #e2v0c {
-        display: none;
-    }
-    #e2v0d {
-        display: none;
-    }
-    #e2v0e {
-        display: none;
-    }
-    #e2v0f {
-        display: none;
-    }
-    #e2v0g {
-        display: none;
-    }
-    #e2v0h {
-        display: none;
-    }
-    #e2v0i {
-        display: none;
-    }
 
     .footext {
         font-size: 12px;
@@ -975,7 +818,31 @@ a {
         align-items: center; 
     }
 
-    .fnav1 {
+    .fnavc1 {
         display: none;
     }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero-full {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    #TH1 {
+        margin: 0 auto;
+        padding-left: 15%;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    #TH2 {
+        display: none;
+    }
+
+    #TH3 {
+        display: none;
+    }
+
+
 }
