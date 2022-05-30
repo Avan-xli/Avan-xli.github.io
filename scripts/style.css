@@ -25,6 +25,7 @@
 
 /* default tags */
 * {
+    list-style: none;
     text-decoration: none;
 	margin: 0;
 	padding: 0;
@@ -287,16 +288,16 @@ footer {
 .fnav0 {background-color: var(--c03); width: 100%;}
 .f-braket {display: flex;flex-wrap: wrap;padding: 10px 0px;width: 85%;margin: 0 auto; justify-content: center;}
 .f-inner-braket {display: flex;flex-wrap: wrap;}
-.f-content {position:relative;padding: 10px 0px; margin: 10px; width: 203px;text-align: center;}
-.f-extl-t {font-size: 18px;font-weight: 500;padding: 0px 0px 12px 0px; color: var(--c10);}
-.f-link {display: block;font-size: 14px;font-weight: 100;padding: 5px 0px;}
+.f-content {position:relative;padding: 10px 0px; margin: 10px 25px; width: 203px;text-align: center;}
+.f-extl-t {font-family: 'Open Sans', sans-serif;font-size: 18px;font-weight: 500;padding: 0px 0px 12px 0px; color: var(--c10);}
+.f-link {font-family: 'Open Sans', sans-serif;display: block;font-size: 14px;font-weight: 100;padding: 5px 0px;}
 
 /*--Footer2--*/
 .fnav1{display: flex;padding: 5px 10px;background-color: var(--c02);}
 .f-container1 {font-family: 'Oxanium', cursive;font-size: 14px;font-weight: 300;background-color: var(--c02);}
 .fnavc0 {padding: 0px 20px 0px 0px;color: var(--c02);}
 .fnavc1 {color: var(--c02);}
-.fnavc2 {font-family: 'Oxanium', cursive;font-size: 14px;margin: 0;position: absolute;right: 12%;}
+.fnavc2 {font-family: 'Oxanium', cursive;font-size: 14px;margin: 0;position: absolute;right: 16%;}
 
 /*--- Text Style ---*/
 
