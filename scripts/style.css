@@ -408,7 +408,7 @@ a {
 #TH1 {
     font-family: 'Oxanium', cursive;
     color: var(--c01);
-    font-weight: 400;
+    font-weight: 500;
     padding: 0px 0px 0px 75px;
     font-size: 75px;
     margin: 0;
@@ -416,7 +416,7 @@ a {
 #TH2 {
     font-family: 'Oxanium', cursive;
     color: var(--c01);
-    font-weight: 300;
+    font-weight: 500;
     font-size: 75px;
     margin: 0;
 }
