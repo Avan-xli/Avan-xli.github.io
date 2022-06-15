@@ -11,10 +11,11 @@
 
 table {
     font-family: 'Oxanium', cursive;
-    padding: 14px 0px;
+    margin: auto 0;
     border-collapse: collapse;
     table-layout: fixed;
     width: 830px;
+    height: 26px;
     text-align: left;
 }
 
