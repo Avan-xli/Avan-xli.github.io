@@ -1,0 +1,40 @@
+Phone
+- [ ] Apple iPhone 3GS
+- [x] Apple iPhone 4s
+- [ ] Apple iPhone 5
+- [ ] Apple iPhone 5c
+- [x] Apple iPhone SE1
+- [x] Apple iPhone SE2
+- [x] Apple iPhone 12 mini 
+- [ ] Apple iPhone 13 mini
+- [ ] Asus Zenfone 8 Flip
+- [ ] Google Pixel 3
+- [ ] Google Pixel 6 Pro
+- [ ] LG V60 ThinQ 5G 
+- [ ] LG Wing
+- [ ] Microsoft Surface Duo
+- [ ] Samsung Folder 2
+- [ ] Samsung Note 7 Demo
+- [x] Samsung Note FE
+- [ ] Samsung Note 20 Ultra
+- [ ] Samsung Z Flip 3
+- [ ] Samsung S22 Ultra
+- [x] Sharp Aquos  SH-06G
+- [ ] Sharp Aquos 601SH/602SH
+- [ ] Sony Xperia XZ1 Compact
+- [ ] Sony Xperia 1 III
+- [ ] Xiaomi Mi 11 Ultra
+- [ ] Xiaomi Poco X4 Pro
+- [ ] ZTE Axon 30 Ultra
+
+- [ ] Apple iPod Classic
+- [x] Apple iPod Touch 2nd Gen
+- [ ] Apple iPod Nano 6
+- [ ] Apple iPod Nano 7
+- [ ] Sony Walkman TPS-L2 
+- [ ] Sony Walkman A100
+
+- [ ] Sony a7 IV
+- [ ] Sony QX1 
+
+

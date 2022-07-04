@@ -173,7 +173,7 @@
 .level-1-sub-page-banner {
     font-family: 'Oxanium', cursive;
     background-color: var(--a1);
-    color: var(--c10);
+    color: var(--c12);
     font-size: 50px;
     padding: 50px 0px 50px 75px;
     font-weight: 500;
@@ -183,7 +183,7 @@
     font-family: 'Oxanium', cursive;
     padding: 25px 60px;
     background-color: var(--a1);
-    color: var(--c10);
+    color: var(--c12);
     font-size: 16px;
 }
 
@@ -217,7 +217,7 @@ nav {
 
 
 footer {
-    color: var(--c09);
+    color: var(--c11);
 }
 
 

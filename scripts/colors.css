@@ -1,40 +1,19 @@
+@import url("https://assets.A418.org/color0.css");
 :root {
-
-    --just-black:       #000000;
-    --almost-black:     #161a1d;  
-    --charcoal:         #212529;
-    --daker-gray:       #343a40;  
-    --gray:             #495057; 
-    --steel-gray:       #6c757d;  
-    --aluminium:        #adb2bd;  
-    --visual-fog:      #ced4da; 
-    --not-quite-white:  #f8f9fa;
-    --pure-white:       #ffffff;
-
-    --default-blue:     #1a237e;
-    --shallow-sea-blue: #004780;
-    --soft-red:         #ff3333;
-    --green:            #46a816;
-    --washed-out-red:   #ff8888;
-    --sharp-blue:       #2255ff;
-
-    --darker-blue:      #1a126e;
-    --deeper-sea-blue:  #002560;
-    --solid-red:        #dd1111;
-    --plastic-blue:     #0033dd;
-    /*--default--*/
     --c01:  var(--just-black);
     --c02:  var(--almost-black);
     --c03:  var(--charcoal);
-    --c04:  var(--daker-gray);
+    --c04:  var(--darker-gray);
     --c05:  var(--gray);
     --c06:  var(--steel-gray);
     --c07:  var(--aluminium);
     --c08:  var(--visual-fog);
-    --c09:  var(--not-quite-white);
-    --c10:  var(--pure-white);
+    --c09:  var(--idm-gst5);
+    --c10:  var(--plastic-white);
+    --c11:  var(--not-quite-white);
+    --c12:  var(--pure-white);
 
-    --a0:   var(--soft-red);
+    --a0:   var(--tomato);
     --a1:   var(--green);
     --a2:   var(--shallow-sea-blue);
     --a3:   var(--default-blue);

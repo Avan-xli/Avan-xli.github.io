@@ -105,7 +105,7 @@ nav {
     font-weight: 500; /*Text weight (thickness)*/
     text-transform: uppercase; /*Text on navigation*/
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in; /*hover animation speed*/
-    color: var(--c09);
+    color: var(--c11);
 }
 .nav::before { /*hover animation closing*/
     align-items: center;
@@ -262,7 +262,7 @@ nav {
 .level-1-sub-page-banner {
     font-family: 'Oxanium', cursive;
     background-color: var(--a1);
-    color: var(--c10);
+    color: var(--c12);
     padding: 50px 75px;
     font-size: 45px;
     width: 100vw;   
@@ -272,7 +272,7 @@ nav {
     font-family: 'Oxanium', cursive;
     padding: 25px 60px;
     background-color: var(--a1);
-    color: var(--c10);
+    color: var(--c12);
     font-size: 16px;
 }
 .blank_space {
@@ -324,7 +324,7 @@ nav {
 /*--- footer ---*/
 
 footer {
-    color: var(--c09);
+    color: var(--c11);
 }
 
 
